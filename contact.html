@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!--Division for the Navbar-->
+    <!--Change to inline display in css-->
+    <span class="navbar inline">
+        <h1 class="tealBox whiteText">Aaron Angle</h1>
+        <ul style="list-style:none;" class="grayText">
+            <li><a href="index.html">About</a></li>
+            <li>|</li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li>|</li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </span>
+
+    <!--Division contains the background for the main body of the website-->
+    <div class="background">
+        <!-- Create a space between navbar and about me-->
+        <div class="break">
+        </div>
+
+        <!--Contain the contents of Contact inside the white box-->
+        <div class="container">
+            <h1 class="teal">Contact</h1>
+
+            <div class="grayBar">
+            </div>
+
+            <!--Contains the form-->
+            <form action="MAILTO:acangle10@gmail.com" method="post" enctype="text/plain">
+                <h4>Name</h4>
+                <input type="text" name="name" required="required" />
+                <h4>Email</h4>
+                <input type="text" name="email" required="required" />
+                <h4>Message</h4>
+                <textarea name="message"></textarea>
+                <br/>
+                <br/>
+                <input type="submit" value="Submit"/>
+            </form>
+        </div>
+    </div>
+
+    <!--Division for the Sticky Footer of the Website-->
+    <div class="footer">
+        <div class="tealBar">
+        </div>
+        <div class="grayFooter">
+        </div>
+    </div>
+</body>
+
+</html>
