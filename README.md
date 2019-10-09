@@ -1,2 +1,2 @@
 # MyFirstWebsite
-This is a website about me
+My name is Aaron Angle and, this website outlines a bit of what I have accomplished in my life and some of my skills. This website was created by myself and utilizes HTML and CSS for its function and design. This website showcases the use of HTML forms, the CSS float property, Margin and Padding adjustments, Color adjustments, and many other features that you can check out for yourself.
