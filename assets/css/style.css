@@ -98,3 +98,31 @@ p{
     background-color: #777777;
     width: 100%;
 }
+.pic{
+    height: 200px;
+    width: 250px;
+}
+.portBox{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 250px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:  absolute;
+    bottom: -5px;
+}
+h3{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+.picBox{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+.picContainer{
+    width: 70%;
+}
+.space{
+    height: 25px;
+}
