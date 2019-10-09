@@ -6,6 +6,7 @@ html, body{
 .wrapper{
     min-height: 100%;
     margin-bottom: -50px;
+    background-image: url('../../assets/images/herringbone.png');  
 }
 .whiteText{
     color: #ffffff;
@@ -36,6 +37,11 @@ html, body{
 .navbar{
     width: 960px;
     margin: auto;
+}
+.head{
+    width: 100%;
+    background-color: #ffffff;
+    height: 67px;
 }
 .teal{
     color: #4aaaa5;
@@ -70,6 +76,7 @@ a:hover{
     margin: 0;
     background-image: url('../../assets/images/herringbone.png');
     border-top: 1px solid #777777;
+    min-height: 100%;
 }
 p{
     line-height: 1.8;
@@ -125,4 +132,23 @@ h3{
 }
 .space{
     height: 25px;
+}
+.space3{
+ padding: 20px;
+ padding-top: 0px;
+}
+.space4{
+    padding-bottom: 15px;
+}
+.formSpace{
+    width: 100%;
+    margin-top: 0;
+}
+h4{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textArea{
+    height: 200px;
 }

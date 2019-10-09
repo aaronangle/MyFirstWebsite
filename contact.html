@@ -14,44 +14,51 @@
 </head>
 
 <body>
-    <!--Division for the Navbar-->
-    <!--Change to inline display in css-->
-    <span class="navbar inline">
-        <h1 class="tealBox whiteText">Aaron Angle</h1>
-        <ul style="list-style:none;" class="grayText">
-            <li><a href="index.html">About</a></li>
-            <li>|</li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li>|</li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </span>
+    <div class="wrapper">
+        <!--Division for the Navbar-->
+        <div class="head">
+        <div class="navbar">
+            <h1 class="tealBox whiteText">Aaron Angle</h1>
+            <p class="grayText floatRight">
+                <a class="grayText" href="index.html">About</a>
+                |
+                <a class="grayText" href="portfolio.html">Portfolio</a>
+                |
+                <a class="grayText" href="contact.html">Contact</a></p>
 
-    <!--Division contains the background for the main body of the website-->
-    <div class="background">
-        <!-- Create a space between navbar and about me-->
-        <div class="break">
+        </div>
         </div>
 
-        <!--Contain the contents of Contact inside the white box-->
-        <div class="container">
-            <h1 class="teal">Contact</h1>
-
-            <div class="grayBar">
+        <!--Division contains the background for the main body of the website-->
+        <div class="background clear">
+            <!-- Create a space between navbar and about me-->
+            <div class="break">
             </div>
 
-            <!--Contains the form-->
-            <form class ="grayText" action="#" method="post">
-                <h4>Name</h4>
-                <input type="text" name="name" required="required" />
-                <h4>Email</h4>
-                <input type="text" name="email" required="required" />
-                <h4>Message</h4>
-                <textarea name="message"></textarea>
-                <br/>
-                <br/>
-                <input class="submit" type="submit" value="Submit"/>
-            </form>
+            <!--Contain the contents of Contact inside the white box-->
+            <div class="container">
+                <div class="space3">
+                    <h1 class="teal">Contact</h1>
+
+                    <div class="grayBar">
+                    </div>
+
+                    <!--Contains the form-->
+                    <form class="grayText" action="#" method="post">
+                        <h4>Name</h4>
+                        <input class="formSpace" type="text" name="name" required="required" />
+                        <h4>Email</h4>
+                        <input class="formSpace" type="text" name="email" required="required" />
+                        <h4>Message</h4>
+                        <textarea class="formSpace textArea" name="message"></textarea>
+                        <br />
+                        <br />
+                        <input class="submit" type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
+            <div class="push"></div>
+            <div class="space2"></div>
         </div>
     </div>
 
